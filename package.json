@@ -10,14 +10,10 @@
     "start": "node start.js",
     "test": "node start.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Swatika666/IX.git"
-  },
   "keywords": [
     "md-bot"
   ],
-  "author": "Kai",
+  "author": "IX",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Swatika666/IX/issues"

@@ -42,7 +42,7 @@ global.SupportGroupLink = "#";
 
 
 //
-global.openAiAPI = process.env.OPENAI_API || "sk-None-kBrj8LxI1Ulj4PadbGC7T3BlbkFJ5oZ10XZi25WRLIfrxo6O";
+global.openAiAPI = process.env.OPENAI_API || "";
 global.location = process.env.LOCATION || "IX, XXX";
 global.reactmoji = process.env.REACT_MOJI || "❤️";
 global.themeemoji = process.env.THEME_EMOJI || "💖";
