@@ -1,0 +1,24 @@
+{
+  "name": "IX-MD",
+  "description": "A WhatsApp bot based on Baileys library (Ts+Js) with Multi Device support",
+  "repository": "https://github.com/Swatika666/IX",
+  "logo": "https://telegra.ph/file/c8700447bb242a9f2b837.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
